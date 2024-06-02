@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width:768px) {
+    .container {
+        display: flex;
+    }
+    .hamburger {
+        position: absolute;
+        left : 0;
+    }
+    .btn {
+        position: absolute;
+        right: 0;
+    }
+    .logo {
+        position: absolute;
+        top : 0;
+        left: 70px;
+    }
+    .logo-title {
+        font-size: larger;
+    }
+    .logo-a {
+        height: 85px;
+        width: 85px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .container {
+        display: flex;
+    }
+    .hamburger {
+        position: absolute;
+        left : 0;
+    }
+    .btn {
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+    .logo {
+        position: absolute;
+        top : 10px;
+        left: 45px;
+    }
+    .logo-title {
+        font-size: large;
+    }
+    .logo-a {
+        height: 70px;
+        width: 70px;
+    }
+    .copy-icon {
+        right: 0;
+    }
+    .presale {
+        color: white;
+    }
+    .presale-details {
+        color: #C50D0D;
+    }
+}
